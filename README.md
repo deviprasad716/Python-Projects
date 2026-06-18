@@ -42,11 +42,12 @@ A simple Python program that generates a random password based on the number of 
   - Symbols
 
 ### Example Output
-
+```text
 Welcome to Password Generator!
 How many letters you want in your password: 5
 How many numbers you want in your password: 3
 How many symbols you want in your password: 2
+```
 
 Password: AbXde731!$
 
