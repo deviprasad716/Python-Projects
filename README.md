@@ -19,9 +19,7 @@ Enter your choice(Type 0 for Rock, 1 for Paper, 2 for Scisor):0
 You chose: Rock
 Computer chose: Scissors
 
-You win!
-
-```
+You win!```
 
 ### Preview
 
@@ -50,10 +48,7 @@ How many letters you want in your password: 5
 How many numbers you want in your password: 3
 How many symbols you want in your password: 2
 
-
-Password: AbXde731!$
-
-```
+Password: AbXde731!$```
 ### Preview
 
 ![Program Preview](project_preview/project2.png)
