@@ -23,7 +23,7 @@ You win!
 
 ### Preview
 
-![Program Preview](project_preview\project1.png)
+![Program Preview](project_preview/project1.png)
 
 
 ## Project-2 : Password Generator
@@ -52,6 +52,6 @@ Password: AbXde731!$
 
 ### Preview
 
-![Program Preview](project_preview\project2.png)
+![Program Preview](project_preview/project2.png)
 
 
