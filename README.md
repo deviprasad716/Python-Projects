@@ -49,10 +49,11 @@ Welcome to Password Generator!
 How many letters you want in your password: 5
 How many numbers you want in your password: 3
 How many symbols you want in your password: 2
-```
+
 
 Password: AbXde731!$
 
+```
 ### Preview
 
 ![Program Preview](project_preview/project2.png)
