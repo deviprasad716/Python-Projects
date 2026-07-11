@@ -73,8 +73,6 @@ Hangman is a classic word guessing game developed using Python. In this game, th
 
 ### Example Output
 
-## ▶️ Example Gameplay
-
 In this example, the randomly selected word is **apple**. Each wrong guess changes the appearance of the hangman.
 
 ```text
