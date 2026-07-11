@@ -1,0 +1,1 @@
+word_list=["apple","mango","orange","strawberry","bananna","fig","plum","cherry","litchi","guava","grapes"]
