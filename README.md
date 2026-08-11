@@ -134,7 +134,3 @@ Guess the letter: e
 You Win!!
 
 ```
-
-### Preview
-
-![Program Preview](project_preview/project3.png)
