@@ -1,6 +1,6 @@
 # Python-Projects
 
-## Project-1 : Rock Paper Scissors Game
+## Project-8 : Rock Paper Scissors Game
 
 A simple command-line Rock Paper Scissors game built using Python. The player competes against the computer, which randomly chooses Rock, Paper, or Scissors.
 
@@ -23,12 +23,9 @@ Computer chose: Scissors
 You win!
 ```
 
-### Preview
-
-![Program Preview](project_preview/project1.png)
 
 
-## Project-2 : Password Generator
+## Project-9 : Password Generator
 
 A simple Python program that generates a random password based on the number of letters, numbers, and symbols specified by the user.
 
@@ -54,11 +51,8 @@ How many symbols you want in your password: 2
 Password: AbXde731!$
 ```
 
-### Preview
 
-![Program Preview](project_preview/project2.png)
-
-## Project-3 : Hangman Game
+## Project-10 : Hangman Game
 
 Hangman is a classic word guessing game developed using Python. In this game, the player has to guess the hidden fruit name one letter at a time. For every incorrect guess, a part of the hangman figure is drawn. The game ends when the player either guesses the complete word or loses all available lives.
 
