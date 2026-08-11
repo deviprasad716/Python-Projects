@@ -4,7 +4,6 @@ import fruits
 
 lives=6
 choosen_word=random.choice(fruits.word_list)
-print(choosen_word)
 
 display=[]
 
