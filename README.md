@@ -1,5 +1,40 @@
 # Python-Projects
 
+## Project-7 : Leap Year Checker
+
+A simple Python program that checks whether a given year is a leap year or not. The program uses conditional statements to apply the standard leap year rules.
+
+### Features
+
+- Takes a year as input from the user
+- Checks whether the year is divisible by 4
+- Handles century years using the 100 and 400 divisibility rules
+- Displays whether the entered year is a leap year or not
+- Simple command-line interface
+
+### Leap Year Rules
+
+A year is a leap year if:
+
+- It is divisible by 4
+- If it is divisible by 100, it must also be divisible by 400
+
+For example:
+
+- 2024 → Leap year
+- 1900 → Not a leap year
+- 2000 → Leap year
+- 2023 → Not a leap year
+
+### Example Output
+
+```text
+Enter the year: 2024
+
+2024 is a leap year..
+
+```
+
 ## Project-8 : Rock Paper Scissors Game
 
 A simple command-line Rock Paper Scissors game built using Python. The player competes against the computer, which randomly chooses Rock, Paper, or Scissors.
@@ -13,7 +48,7 @@ A simple command-line Rock Paper Scissors game built using Python. The player co
 - Input validation for invalid choices
 
 ### Example Output
- 
+
 ```text
 Enter your choice(Type 0 for Rock, 1 for Paper, 2 for Scisor):0
 
@@ -22,8 +57,6 @@ Computer chose: Scissors
 
 You win!
 ```
-
-
 
 ## Project-9 : Password Generator
 
@@ -50,7 +83,6 @@ How many symbols you want in your password: 2
 
 Password: AbXde731!$
 ```
-
 
 ## Project-10 : Hangman Game
 
