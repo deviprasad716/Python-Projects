@@ -1,0 +1,25 @@
+import random
+
+print("Welcome to Number Guessing Game!!")
+computer_guess=random.randint(1,100)
+number_of_attempts=0
+
+mode=input("Select mode (easy) or (hard): ").lower()
+
+while (mode!='easy' and mode!='hard'):
+    print("Enter valid input..")
+    mode=input("Select mode (easy) or (hard): ").lower()
+
+if mode=='easy':
+    number_of_attempts=10
+elif mode=='hard':
+    number_of_attempts=5
+    
+print("Guess a number we have in the range of 100.")
+
+
+
+
+
+
+    
