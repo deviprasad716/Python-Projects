@@ -39,7 +39,42 @@ Enter your weight: 45
 You are 100.0 pounds..
 ```
 
-## Project-2 : Number Guessing Game
+## Project-2 : Leap Year Checker
+
+A simple Python program that checks whether a given year is a leap year or not. The program uses conditional statements to apply the standard leap year rules.
+
+### Features
+
+- Takes a year as input from the user
+- Checks whether the year is divisible by 4
+- Handles century years using the 100 and 400 divisibility rules
+- Displays whether the entered year is a leap year or not
+- Simple command-line interface
+
+### Leap Year Rules
+
+A year is a leap year if:
+
+- It is divisible by 4
+- If it is divisible by 100, it must also be divisible by 400
+
+For example:
+
+- 2024 → Leap year
+- 1900 → Not a leap year
+- 2000 → Leap year
+- 2023 → Not a leap year
+
+### Example Output
+
+```text
+Enter the year: 2024
+
+2024 is a leap year..
+
+```
+
+## Project-3 : Number Guessing Game
 
 A simple Python command-line game where the computer randomly selects a number between 1 and 100, and the player has to guess the number within a limited number of attempts. The game provides hints after each guess and has two difficulty modes: Easy and Hard.
 
@@ -95,41 +130,6 @@ You guessed the correct number and WON.
 - Conditional Statements
 - While Loops
 - User Input
-
-## Project-7 : Leap Year Checker
-
-A simple Python program that checks whether a given year is a leap year or not. The program uses conditional statements to apply the standard leap year rules.
-
-### Features
-
-- Takes a year as input from the user
-- Checks whether the year is divisible by 4
-- Handles century years using the 100 and 400 divisibility rules
-- Displays whether the entered year is a leap year or not
-- Simple command-line interface
-
-### Leap Year Rules
-
-A year is a leap year if:
-
-- It is divisible by 4
-- If it is divisible by 100, it must also be divisible by 400
-
-For example:
-
-- 2024 → Leap year
-- 1900 → Not a leap year
-- 2000 → Leap year
-- 2023 → Not a leap year
-
-### Example Output
-
-```text
-Enter the year: 2024
-
-2024 is a leap year..
-
-```
 
 ## Project-8 : Rock Paper Scissors Game
 
