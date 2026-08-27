@@ -29,7 +29,7 @@ while True:
     if(choice==6):
         break
     elif(choice<=0 or choice>=7):
-        print("Invalid choice. Select again")
+        print("Invalid choice. Select again.")
         continue
     else:
         first_number=float(input("Enter first number: "))
