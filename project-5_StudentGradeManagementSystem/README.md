@@ -42,7 +42,7 @@ Store data using a database
 4. Find Topper.
 5. Exit
 
-Select the choice:
+Select the choice:1
 
 Example Student Entry
 
