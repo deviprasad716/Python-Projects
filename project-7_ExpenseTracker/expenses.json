@@ -1,0 +1,14 @@
+[
+    {
+        "amount": 5000.0,
+        "category": "Food",
+        "description": "Party treat for friends",
+        "date": "29-08-2006"
+    },
+    {
+        "amount": 10000.0,
+        "category": "Fashion",
+        "description": "Shopping for birthday",
+        "date": "28-08-2014"
+    }
+]
