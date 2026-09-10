@@ -241,6 +241,189 @@ Marks : [85, 90, 92]
 Average : 89.0
 ```
 
+## Project-6 : Contact Book
+
+A beginner-friendly Python project that manages contact information through a simple menu-driven command-line interface.
+
+This project was built to strengthen my understanding of Python dictionaries, nested dictionaries, functions, loops, conditionals, input validation, searching, updating, and deleting data.
+
+### Features
+
+- Add a contact
+- Display all contacts
+- Search for a contact using name
+- Update contact phone number and email
+- Delete a contact
+- Prevent duplicate contact names
+- Handle invalid menu input
+- Store contact information using nested dictionaries
+- Exit the program through the menu
+
+### Future Improvements
+
+This project is intentionally kept simple to focus on core Python concepts and data handling.
+
+Possible improvements for a future version:
+
+- Update contact name
+- Search contacts by phone number or email
+- Validate phone numbers
+- Validate email addresses
+- Sort contacts alphabetically
+- Save contact data to a file
+- Load contact data when the program starts
+- Add a graphical interface
+- Store contact data using a database
+
+### Example Output
+
+```text
+===== CONTACT ME =====
+
+1. Add Contact.
+2. View Contacts.
+3. Search Contact.
+4. Update Contact.
+5. Delete Contact.
+6. Exit.
+
+Enter your choice: 1
+
+Enter name: Dev
+Enter phone: 9988776655
+Enter email: xyz@gmail.com
+
+Contact added successfully.
+
+Example Search
+
+Enter name to search: Dev
+
+Contact found!!
+Name: Dev
+Phone: 9988776655
+Email: xyz@gmail.com
+```
+
+## Project-7 : Expense Tracker
+
+A simple **Expense Tracker** built using Python.
+
+This project allows users to add, view, calculate, and filter expenses.  
+All expenses are stored in a JSON file so that the data remains available even after closing the program.
+
+### Features
+
+-  Add Expense
+-  View All Expenses
+-  Calculate Total Expenses
+-  Filter Expenses by Category
+-  Save Expenses to JSON
+-  Load Expenses from JSON when the program starts
+-  Exit the application
+
+### Topics Used
+
+- JSON
+- `pathlib`
+- File Handling
+- Functions
+- Lists
+- Dictionaries
+- Loops
+- Conditional Statements
+
+###  Project Structure
+
+```text
+Expense-Tracker/
+│
+├── expense_tracker.py
+├── expenses.json
+└── README.md
+```
+
+###  How It Works
+
+When the program starts, it checks whether `expenses.json` exists.
+
+* If the file exists → previously saved expenses are loaded.
+* If the file doesn't exist → an empty expense list is created.
+
+When a new expense is added, it is saved to `expenses.json`.
+
+Each expense contains:
+
+* Amount
+* Category
+* Description
+* Date
+
+Example:
+
+```python
+{
+    "amount": 250,
+    "category": "Food",
+    "description": "Lunch",
+    "date": "06-09-2026"
+}
+```
+
+###  Example Output
+
+```text
+===== EXPENSE TRACKER =====
+1. Add Expense.
+2. View Expenses.
+3. Total Expenses.
+4. Filter by Category.
+5. Exit.
+
+Enter choice: 1
+Enter amount: 450
+Enter category: Food
+Enter description: Dinner
+Enter date: 09-09-2026
+
+Add another expense? no
+
+Enter choice: 2
+
+===== ALL EXPENSES =====
+
+Expense 1
+Amount: ₹250
+Category: Food
+Description: Lunch
+Date: 06-09-2026
+
+Expense 2
+Amount: ₹450
+Category: Food
+Description: Dinner
+Date: 09-09-2026
+
+Enter choice: 3
+Total Expense: ₹700
+
+Enter choice: 4
+Enter category: Food
+
+Amount: ₹250
+Category: Food
+Description: Lunch
+Date: 06-09-2026
+
+Amount: ₹450
+Category: Food
+Description: Dinner
+Date: 09-09-2026
+
+Enter choice: 5
+Thank you for using Expense Tracker!
+```
+
 ## Project-8 : Rock Paper Scissors Game
 
 A simple command-line Rock Paper Scissors game built using Python. The player competes against the computer, which randomly chooses Rock, Paper, or Scissors.
