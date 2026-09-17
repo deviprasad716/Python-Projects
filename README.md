@@ -38,7 +38,7 @@ Enter your weight: 45
 (L)bs or (K)g: k
 You are 100.0 pounds..
 ```
-
+---
 ## Project-2 : Leap Year Checker
 
 A simple Python program that checks whether a given year is a leap year or not. The program uses conditional statements to apply the standard leap year rules.
@@ -73,7 +73,7 @@ Enter the year: 2024
 2024 is a leap year..
 
 ```
-
+---
 ## Project-3 : Number Guessing Game
 
 A simple Python command-line game where the computer randomly selects a number between 1 and 100, and the player has to guess the number within a limited number of attempts. The game provides hints after each guess and has two difficulty modes: Easy and Hard.
@@ -130,7 +130,7 @@ You guessed the correct number and WON.
 - Conditional Statements
 - While Loops
 - User Input
-
+---
 ## Project-4 : Simple Calculator
 
 A beginner-friendly command-line calculator built with Python. This project allows users to perform basic arithmetic operations through an interactive menu.
@@ -175,7 +175,7 @@ If division or modulus by zero is attempted, the program will continue asking fo
 - Add more mathematical operations
 - Improve input validation for non-numeric input
 - Add a graphical user interface (GUI)
-
+---
 ## Project-5 : Student Grade Management System
 
 A beginner-friendly Python OOP project that manages student information, marks, averages, and topper details through a simple menu-driven command-line interface.
@@ -240,7 +240,7 @@ Roll No : 101
 Marks : [85, 90, 92]
 Average : 89.0
 ```
-
+---
 ## Project-6 : Contact Book
 
 A beginner-friendly Python project that manages contact information through a simple menu-driven command-line interface.
@@ -304,7 +304,7 @@ Name: Dev
 Phone: 9988776655
 Email: xyz@gmail.com
 ```
-
+---
 ## Project-7 : Expense Tracker
 
 A simple **Expense Tracker** built using Python.
@@ -423,7 +423,7 @@ Date: 09-09-2026
 Enter choice: 5
 Thank you for using Expense Tracker!
 ```
-
+---
 ## Project-8 : Rock Paper Scissors Game
 
 A simple command-line Rock Paper Scissors game built using Python. The player competes against the computer, which randomly chooses Rock, Paper, or Scissors.
@@ -446,7 +446,7 @@ Computer chose: Scissors
 
 You win!
 ```
-
+---
 ## Project-9 : Password Generator
 
 A simple Python program that generates a random password based on the number of letters, numbers, and symbols specified by the user.
@@ -472,7 +472,7 @@ How many symbols you want in your password: 2
 
 Password: AbXde731!$
 ```
-
+---
 ## Project-10 : Hangman Game
 
 Hangman is a classic word guessing game developed using Python. In this game, the player has to guess the hidden fruit name one letter at a time. For every incorrect guess, a part of the hangman figure is drawn. The game ends when the player either guesses the complete word or loses all available lives.
@@ -556,7 +556,7 @@ You Win!!
 
 ```
 
-
+---
 ## Project-11 : Quiz Application
 
 A simple command-line **Quiz Application built with Python**.
